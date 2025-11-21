@@ -1,0 +1,109 @@
+.hero-section {
+    background: linear-gradient(135deg, #1B1A55 0%, #2d2a6b 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/assets/image/hero_section/sekolah1.png') center/cover;
+    opacity: 0.1;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #F5E8C7 0%, #e6d4a8 100%);
+    color: #1B1A55;
+    flex-shrink: 0;
+}
+
+.contact-card {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    border-color: #1B1A55;
+    box-shadow: 0 20px 40px rgba(27,26,85,0.15);
+}
+
+.form-input {
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 12px 16px;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #1B1A55;
+    box-shadow: 0 0 0 3px rgba(27,26,85,0.1);
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #1B1A55;
+    color: white;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2d2a6b;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(27,26,85,0.2);
+}
+
+.btn-secondary {
+    background-color: #F5E8C7;
+    color: #1B1A55;
+    padding: 16px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #e6d4a8;
+    transform: translateY(-2px);
+}
+
+.social-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 0 8px;
+}
+
+.social-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,118 @@
+/* Home Page Styles */
+
+/* Font Styling */
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.achievement-badge {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.hero-gradient {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    filter: brightness(0.8) contrast(1.1);
+    transform: scale(1.02);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.hero-gradient .container {
+    position: relative;
+    z-index: 3;
+}
+
+.floating-card {
+    transition: transform 0.3s ease;
+}
+
+.floating-card:hover {
+    transform: translateY(-10px);
+}
+
+.industry-partner {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.industry-partner:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.achievement-badge {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    color: #1B1A55;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0.25rem;
+    letter-spacing: 0.5px;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    letter-spacing: 0.5px;
+}
+
+.facility-item {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.facility-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+
+.facility-item.active {
+    background-color: #e3f2fd;
+    border-color: #007bff;
+}

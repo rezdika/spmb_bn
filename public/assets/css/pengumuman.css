@@ -1,0 +1,61 @@
+.hero-gradient {
+    background: linear-gradient(rgba(27, 26, 85, 0.9), rgba(27, 26, 85, 0.8)), url('/assets/image/hero_section/sekolah1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-title {
+    border-bottom: 3px solid #1B1A55;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.search-form {
+    background-color: white;
+    border: 2px solid #1B1A55;
+    padding: 3rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.result-box {
+    background-color: #1B1A55;
+    color: white;
+    padding: 2rem;
+    display: none;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 2px solid #dee2e6;
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    border-color: #1B1A55;
+    box-shadow: none;
+}
+
+.btn-search {
+    background-color: #1B1A55;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-search:hover {
+    background-color: #2a2970;
+    color: white;
+}
+
+.table-bordered {
+    border: 2px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
